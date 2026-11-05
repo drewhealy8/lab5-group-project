@@ -12,6 +12,7 @@
 #include <iostream>
 #include <ctime>
 #include "myheaders.h"
+#include "myheaders2.h"
 
 using namespace std;
 

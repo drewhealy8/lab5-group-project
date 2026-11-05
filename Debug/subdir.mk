@@ -3,16 +3,16 @@
 ################################################################################
 
 # Add inputs and outputs from these tool invocations to the build variables 
-CC_SRCS += \
-../Asort.cc \
-../Bsort.cc \
-../bubblesort.cc \
-../helper_fns.cc \
-../helper_fns2.cc \
-../main.cc \
-../mergesort.cc 
+CPP_SRCS += \
+../Asort.cpp \
+../Bsort.cpp \
+../bubblesort.cpp \
+../helper_fns.cpp \
+../helper_fns2.cpp \
+../main.cpp \
+../mergesort.cpp 
 
-CC_DEPS += \
+CPP_DEPS += \
 ./Asort.d \
 ./Bsort.d \
 ./bubblesort.d \
@@ -32,7 +32,7 @@ OBJS += \
 
 
 # Each subdirectory must supply rules for building sources it contributes
-%.o: ../%.cc subdir.mk
+%.o: ../%.cpp subdir.mk
 	@echo 'Building file: $<'
 	@echo 'Invoking: GCC C++ Compiler'
 	g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -o "$@" "$<"

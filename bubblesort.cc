@@ -1,5 +1,7 @@
 #include "myheaders.h"
 
+//Cullen Chadwick
+//Bubble sort function sorting algorithm
 
 // Your Bubble sort function goes here ..
 

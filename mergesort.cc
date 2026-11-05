@@ -14,7 +14,7 @@ void	mergesort(long data[], long first, long last) {
 				mergesort(data, first, mid);
 				mergesort(data, mid+1, last);
 				
-				merge(data, first, last);
+				//merge(data, first, last);
 
 			}
 	

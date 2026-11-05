@@ -1,3 +1,4 @@
+/*
 #include <iostream>
 #include <fstream>
 #include "myheaders.h"
@@ -110,4 +111,4 @@ void	swap(long& x, long& y) {
 			return;
 }
 
-
+*/
